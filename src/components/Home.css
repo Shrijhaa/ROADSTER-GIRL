@@ -1,0 +1,45 @@
+.fullContainer{
+height:115vh;
+width:100vw;
+background-image:url("../images/bgre.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.logo img{
+    height: 120px;
+    width:120px;
+    border-radius: 50%;
+    margin:15px;
+
+}
+
+.navbar{
+    width:45vw;
+    height:6vh;
+    display:flex;
+    flex-direction: row;
+   margin-top:15px;
+   margin-right:15px;
+    justify-content: space-around;
+    
+    
+}
+.navlink{
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    
+
+}
+
+.navlink:hover{
+    color:black;
+    border-bottom: 4px solid gold;
+    text-align: center;
+}
